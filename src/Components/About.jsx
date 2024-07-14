@@ -5,10 +5,10 @@ import { useNavigate } from "react-router-dom";
 
 const About=()=>{
     const navigate=useNavigate();
-    return <div classNameName="About">
-                <div  id="aboutimg">
-                </div>
-    <div className="aboutMe">
+    return <div className="About">
+                    <img src="../Images/introimg.PNG" className="imageAbout" alt="image"/>
+                
+      <div className="aboutMe">
         <h1 style={{fontSize:'45px',marginLeft:'10px'}}> <span className="aboutI">About Me</span><br />
         </h1>
         <p style={{marginLeft:'10px',marginBottom:'16px'}}>I am a first year student of <b>National Institute Of Technology <br /> Patna.</b>I am doing BTech from 

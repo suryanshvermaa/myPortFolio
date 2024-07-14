@@ -1,5 +1,5 @@
 const Skills=()=>{
-    const SkillA=['HTML','CSS','JAVASCRIPT','REACT-JS','MongoDB','JAVA','C-Language'];
+    const SkillA=['HTML','CSS','JAVASCRIPT',"Typescript",'REACT-JS',"React-Native","Next-JS",'MongoDB',"ExpressJs","NodeJs",'JAVA','C-Language',"AWS","Docker","BullMQ","Kafka"];
     return  <div className="Skills">
                  <h1 style={{marginTop:'60px',fontSize:'50px'}}>Skills</h1>
                  {

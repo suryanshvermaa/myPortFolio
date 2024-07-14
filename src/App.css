@@ -8,7 +8,7 @@
 }
 .header{
     height: 40px;
-    width:100vw;
+    width:100%;
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid rgb(54, 54, 54);
@@ -133,7 +133,7 @@
   .midSm{
     background-color: black;
     padding: 10px;
-    width: 100vw;
+    width: 99vw;
     font-size: 30px;
     height: 100vh;
     display: flex;
@@ -214,10 +214,11 @@
 
 @media (min-width:0px) {
   .home{
-    width: 100vw;
+    padding: 20px;
+    width: 96vw;
     height: 90vh;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
    
 
@@ -226,7 +227,7 @@
 @media (min-width:700px) {
   .home{
     width: 100vw;
-    height: 90vh;
+    height: 96vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -253,10 +254,9 @@
 @media (min-width:0px) {
   .intro{
     width: 38vw;
-    height: 100%;
+    height: 97%;
     text-align: start;
     margin-top: 28px;
-   margin-left: 25px;
    width: fit-content;
 }
 }
@@ -264,7 +264,7 @@
   .intro{
     text-align: start;
     width: 38vw;
-    height: 100%;
+    height: 97%;
     margin-top: 28px;
    margin-left: 100px;
    
@@ -276,7 +276,7 @@
 @media (min-width:0px) {
   .introimg{
     height: 500px;
-   width: 100vw;
+   width: 97vw;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -284,7 +284,7 @@
 }
 @media (min-width:700px) {
   .introimg{
-    width: 62vw;
+    width: 61vw;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -308,6 +308,16 @@
     background-size: 100% 100%;
 }
 }
+@media (min-width:500px) {
+  .imgport{
+    height: 400px;
+    width: 80%;
+    background-image: url('./Images/introimg.PNG');
+    background-size: 100% 100%;
+   
+
+}
+}
 @media (min-width:700px) {
   .imgport{
     height: 400px;
@@ -321,40 +331,48 @@
 
 @media (min-width:0px) {
   .About{
+    margin-top: 200px;
+    width: 98vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+}
+@media (min-width:650px) {
+  .About{
+    margin-top: 0px;
+    width: 95vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+}
+@media (min-width:800px) {
+  .About{
+    margin-top: 0px;
     width: 100vw;
     height: 90vh;
     display: flex;
-    flex-direction: column;
-}
-}
-@media (min-width:700px) {
-  .About{
-    width: 100%;
-    height: 90vh;
-    display: flex;
+    justify-content: space-between;
     flex-direction: row;
+    padding: 20px;
+    align-items: center;
 }
 }
-
 
 @media (min-width:0px) {
-  #aboutimg{
-    margin-right: 100px;
-    width: 51vw;
+  .aboutMe{
+    margin-top: 80px;
+    width: fit-content;
+    margin-left: 20px;
     height: 100%;
   }
 }
-@media (min-width:700px) {
-  #aboutimg{
-    /* margin-top: 80px;
-    margin-left: 100px; */
-    height: 80%;
-    width: 80%;
-    background-image: url('./Images/introimg.PNG');
-    background-size: 100% 100%;
-  }
-}
-@media (min-width:0px) {
+@media (min-width:330px) {
   .aboutMe{
     margin-top: 200px;
     width: fit-content;
@@ -362,9 +380,10 @@
     height: 100%;
   }
 }
-@media (min-width:700px) {
+
+@media (min-width:800px) {
   .aboutMe{
-    margin-top: 80px;
+    margin-top: 0;
     width: 49vw;
     margin-left: 90px;
     height: 100%;
@@ -378,6 +397,33 @@
     font-size: 57px;
 }
 
+ @media (min-width:0px) {
+  .imageAbout{
+    width: 98vw;
+    margin-left: 15px;
+    height: 400px;
+    background-image: url('./Images/introimg.PNG');
+    background-size: 100% 100%;
+  }
+}
+
+@media (min-width:330px) {
+  .imageAbout{
+    width: 95vw;
+    height: 400px;
+    margin-left: 15px;
+  }
+}
+
+@media (min-width:800px) {
+  .imageAbout{
+    width: 35vw;
+    margin-left: 15px;
+    height: 400px;
+    border:0px;
+    width: 600px;
+  }
+} 
 @media (min-width:0px) {
   .Skills{
     width: 85vw;
@@ -422,6 +468,46 @@
 .C-Language{
     height: 8px;
     width: 60%;
+}
+.Tailwind{
+  height: 8px;
+  width: 80%;
+}
+.React-Native{
+  height: 8px;
+  width: 67%;
+}
+.AWS{
+  height: 8px;
+  width: 20%;
+}
+.Next-JS{
+  height: 8px;
+  width: 60%;
+}
+.Kafka{
+  height: 8px;
+  width: 40%;
+}
+.BullMQ{
+  height: 8px;
+  width: 45%;
+}
+.Docker{
+  height: 8px;
+  width: 80%;
+}
+.Typescript{
+  height: 8px;
+  width: 80%;
+}
+.ExpressJs{
+  height: 8px;
+  width: 80%;
+}
+.NodeJs{
+  height: 8px;
+  width: 80%;
 }
 /* .thankyou{
    
