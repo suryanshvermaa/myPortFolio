@@ -1,0 +1,5 @@
+.active{
+    border-bottom:2px solid transparent;
+    border-image: linear-gradient(to right,#b16cea,#ff5e69,#ff8a56,#ffa84b);
+    border-image-slice:1;
+}
