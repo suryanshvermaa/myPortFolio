@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa6";
 import About from "./About";
 import Skills from "./Skills";
 import { useNavigate } from "react-router-dom";
+import Footer from './Footer';
 
 const Home=()=>{
     const redirect=useNavigate();
@@ -34,7 +35,8 @@ const Home=()=>{
                 
           </div>
           <About></About>
-          {/* <Skills></Skills> */}
+          <Footer/>
+         
           
           </>
 }
