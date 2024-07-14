@@ -133,7 +133,7 @@
   .midSm{
     background-color: black;
     padding: 10px;
-    width: 99vw;
+    width: 98vw;
     font-size: 30px;
     height: 100vh;
     display: flex;
@@ -226,7 +226,7 @@
 }
 @media (min-width:700px) {
   .home{
-    width: 100vw;
+    width: 95vw;
     height: 96vh;
     display: flex;
     flex-direction: row;
@@ -331,7 +331,6 @@
 
 @media (min-width:0px) {
   .About{
-    margin-top: 200px;
     width: 98vw;
     height: 90vh;
     display: flex;
@@ -354,7 +353,7 @@
 @media (min-width:800px) {
   .About{
     margin-top: 0px;
-    width: 100vw;
+    width: 96vw;
     height: 90vh;
     display: flex;
     justify-content: space-between;
@@ -366,7 +365,7 @@
 
 @media (min-width:0px) {
   .aboutMe{
-    margin-top: 80px;
+    /* margin-top: 80px; */
     width: fit-content;
     margin-left: 20px;
     height: 100%;
@@ -374,7 +373,7 @@
 }
 @media (min-width:330px) {
   .aboutMe{
-    margin-top: 200px;
+    /* margin-top: 200px; */
     width: fit-content;
     margin-left: 20px;
     height: 100%;
