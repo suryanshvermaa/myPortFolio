@@ -8,7 +8,7 @@
 }
 .header{
     height: 40px;
-    width:100%;
+    width:100vw;
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid rgb(54, 54, 54);
