@@ -10,6 +10,7 @@ const Header=()=>{
     let [active,setActive]=useState("Home");
     const onclickset=(val)=>{
         setActive(val);
+        setMidNav(false);
     }
     const nevigatebt=()=>{
         onclickset('Contact');
