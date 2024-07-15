@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import axios from 'axios';
+import Footer from './Footer.jsx'
 const Contact=()=>{
     const [contactNumber,setContactno]=useState('');
     const [descriptionContact,setdes]=useState('');
@@ -22,7 +23,8 @@ const Contact=()=>{
           )
 
     }
-    return <div classNameName="contactform" style={{display:'flex',justifyContent:'center',alignItems:'center',height:'100vh',width:'100vw'}}>
+    return <>
+    <div classNameName="contactform" style={{display:'flex',justifyContent:'center',alignItems:'center',height:'100vh',width:'100vw'}}>
     <div className="form-container">
     <form method="Post" className="form" >
       <div className="form-group">
@@ -42,5 +44,7 @@ const Contact=()=>{
     </form>
   </div>
   </div>
+  <Footer/>
+  </>
 }
 export default Contact;

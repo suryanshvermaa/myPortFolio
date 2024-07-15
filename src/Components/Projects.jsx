@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard.jsx";
+import Footer from './Footer.jsx'
 
 const Projects=()=>{
 
@@ -51,7 +52,7 @@ const Projects=()=>{
     ]
 
     return (
-        
+        <>
         <div style={{paddingLeft:'40px',paddingRight:"40px"}}>
             <h1>Projects</h1>
             <div style={{display:"flex",flexDirection:"row",flexWrap:"wrap",gap:"10px",justifyContent:"center"}}>
@@ -60,6 +61,9 @@ const Projects=()=>{
             }
             </div>
         </div>
+        <Footer/>
+        </>
+
     )
 }
 export default Projects;
