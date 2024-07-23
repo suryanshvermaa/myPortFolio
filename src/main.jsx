@@ -4,8 +4,7 @@ import App from './App.jsx'
 import Home from './Components/Home.jsx';
 import About from './Components/About.jsx';
 import Skills from './Components/Skills.jsx';
-import { RouterProvider} from 'react-router-dom';
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Projects from './Components/Projects.jsx';
 import Shop from './Components/Shop.jsx';
 import Contact from './Components/Contact.jsx';
